@@ -1,5 +1,6 @@
 # RestApi-Generator
 Rest Api generator, to create the api files for any jsonObject in inputs.
+You can clone the repo through https://github.com/HusseinTaha/RestApi-Generator.git
 
 # Use
 Just run the project in visual studio 2013.
