@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Restapi-generator : Rest Api generator, to create the api files for any jsonObject in inputs.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Restapi-generator</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61066833-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/HusseinTaha/RestApi-Generator">View on GitHub</a>
+
+          <h1 id="project_title">Restapi-generator</h1>
+          <h2 id="project_tagline">Rest Api generator, to create the api files for any jsonObject in inputs.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/HusseinTaha/RestApi-Generator/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/HusseinTaha/RestApi-Generator/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="restapi-generator" class="anchor" href="#restapi-generator" aria-hidden="true"><span class="octicon octicon-link"></span></a>RestApi-Generator</h1>
+
+<p>Rest Api generator, to create the api files for any jsonObject in inputs.
+You can clone the repo through <a href="https://github.com/HusseinTaha/RestApi-Generator.git">https://github.com/HusseinTaha/RestApi-Generator.git</a></p>
+
+<h1>
+<a id="use" class="anchor" href="#use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use</h1>
+
+<p>Just run the project in visual studio 2013.
+When running, please chose the root model name, and the project name that you want to add the files to it.
+Finally add the jsonObject, not an Array.
+And will create the files for you.</p>
+
+<h1>
+<a id="important" class="anchor" href="#important" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important</h1>
+
+<p>When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:
+  <code>Update-Package Microsoft.AspNet.WebApi.WebHost -Pre</code><br>
+  <code>Install-Package Microsoft.AspNet.WebApi.Cors</code></p>
+
+<p>Don't forget to add this line to your Application_Start method in Global.asax file: <code>WebApiConfig.Register(GlobalConfiguration.Configuration);</code></p>
+
+<h1>
+<a id="contribution" class="anchor" href="#contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribution</h1>
+
+<p>Please if you want to edit, or update and make the project better, please don't hesitate, and make a pull request ;)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Restapi-generator maintained by <a href="https://github.com/HusseinTaha">HusseinTaha</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-61066833-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
