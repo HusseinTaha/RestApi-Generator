@@ -9,7 +9,7 @@ Finally add the jsonObject, not an Array.
 And will create the files for you.
 
 # Important
-When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:
+When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:<br />
   ```Update-Package Microsoft.AspNet.WebApi.WebHost -Pre```<br />
   ```Install-Package Microsoft.AspNet.WebApi.Cors```<br />
   ```Install-Package Newtonsoft.Json -Version 6.0.8```<br />
