@@ -12,6 +12,7 @@ And will create the files for you.
 When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:
   ```Update-Package Microsoft.AspNet.WebApi.WebHost -Pre```<br />
   ```Install-Package Microsoft.AspNet.WebApi.Cors```
+  ```Install-Package Newtonsoft.Json -Version 6.0.8```
   
 Don't forget to add this line to your Application_Start method in Global.asax file: ```WebApiConfig.Register(GlobalConfiguration.Configuration);```
   
