@@ -7,6 +7,7 @@ Just run the project in visual studio 2013.
 When running, please chose the root model name, and the project name that you want to add the files to it.
 Finally add the jsonObject, not an Array.
 And will create the files for you.
+Then copy all generated files to your project
 
 # Important
 When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:<br />
