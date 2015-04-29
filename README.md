@@ -11,6 +11,7 @@ Then copy all generated files to your project
 
 # Important
 When you finish generating files, use the Package Manager Console in visual studio in your Api project and install the following:<br />
+  ```Install-Package Microsoft.AspNet.WebApi.WebHost```<br />
   ```Update-Package Microsoft.AspNet.WebApi.WebHost -Pre```<br />
   ```Install-Package Microsoft.AspNet.WebApi.Cors```<br />
   ```Install-Package Newtonsoft.Json -Version 6.0.8```<br />
