@@ -1,6 +1,6 @@
 # Rest Api Generator for c# and vb.net
 Rest Api generator, to create the api files for any jsonObject in inputs.
-You can clone the repo through https://github.com/HusseinTaha/RestApi-Generator.git
+You can clone the repo through ```https://github.com/HusseinTaha/RestApi-Generator.git```<br />
 Added vb.net code generating.
 
 # Use
