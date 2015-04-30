@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="RestApiGenerator.exe.manifest" size="4189">
+    <dependentAssembly dependencyType="install" codebase="RestApiGenerator.exe.manifest" size="16954">
       <assemblyIdentity name="RestApiGenerator.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>paVkJufUcD7KdFJeK+3JipOiWqVXlVWFXmDBnprmN0A=</dsig:DigestValue>
+        <dsig:DigestValue>16g2lLDDxF35bBJ5jutnksxxQO53gEGMNAff5WOzYNs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

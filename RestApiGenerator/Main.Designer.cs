@@ -37,6 +37,11 @@
             this.projectNameText = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -50,9 +55,9 @@
             // 
             // richJsonText
             // 
-            this.richJsonText.Location = new System.Drawing.Point(90, 109);
+            this.richJsonText.Location = new System.Drawing.Point(89, 144);
             this.richJsonText.Name = "richJsonText";
-            this.richJsonText.Size = new System.Drawing.Size(385, 164);
+            this.richJsonText.Size = new System.Drawing.Size(385, 229);
             this.richJsonText.TabIndex = 1;
             this.richJsonText.Text = "";
             this.richJsonText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richJsonText_KeyDown);
@@ -68,7 +73,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 109);
+            this.label2.Location = new System.Drawing.Point(13, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 3;
@@ -76,7 +81,7 @@
             // 
             // generate
             // 
-            this.generate.Location = new System.Drawing.Point(359, 279);
+            this.generate.Location = new System.Drawing.Point(360, 390);
             this.generate.Name = "generate";
             this.generate.Size = new System.Drawing.Size(116, 59);
             this.generate.TabIndex = 4;
@@ -108,17 +113,61 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(0, 336);
+            this.label4.Location = new System.Drawing.Point(-1, 448);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(212, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "® Copyright 2015 | Created by CoMrEd :) ";
             // 
+            // radioGroup1
+            // 
+            this.radioGroup1.Location = new System.Drawing.Point(80, 107);
+            this.radioGroup1.Name = "radioGroup1";
+            this.radioGroup1.Size = new System.Drawing.Size(0, 0);
+            this.radioGroup1.TabIndex = 8;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(96, 110);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(38, 17);
+            this.radioButton1.TabIndex = 9;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "c#";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(140, 110);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(37, 17);
+            this.radioButton2.TabIndex = 10;
+            this.radioButton2.Text = "vb";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 110);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Langage code:";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 350);
+            this.ClientSize = new System.Drawing.Size(488, 461);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.radioGroup1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.projectNameText);
             this.Controls.Add(this.label3);
@@ -132,6 +181,7 @@
             this.Name = "Main";
             this.Text = "RestApi Generator";
             this.Load += new System.EventHandler(this.Main_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +198,9 @@
         private System.Windows.Forms.TextBox projectNameText;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private DevExpress.XtraEditors.RadioGroup radioGroup1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label5;
     }
 }
