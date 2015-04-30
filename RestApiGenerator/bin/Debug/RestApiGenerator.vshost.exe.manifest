@@ -266,14 +266,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RestApiGenerator.exe" size="36352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RestApiGenerator.exe" size="36864">
       <assemblyIdentity name="RestApiGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dvfLTYVLfQogTtpcR/OSKAaM+rtXZFsWefVjX5gngqI=</dsig:DigestValue>
+        <dsig:DigestValue>6/oTgICfmJ1/JNJ4JPpEZxdIj1/HVQdC36XMttE/6PA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
